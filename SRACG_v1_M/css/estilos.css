@@ -1,0 +1,298 @@
+/*-----------------estilos generales--------------------------------------------------------------------*/
+body{
+    margin: auto; 
+    float: none;
+    width: 960px;
+    font-family: Times New Roman;
+}
+
+.col_1{    
+    width: 200px; 
+    float: left;
+}
+
+.col_2{
+    width: 560px;
+    color: #81994d;
+    float: left;
+}
+
+.col_3{  
+    width: 200px; 
+    float: left;    
+}
+
+.imgSinac,.imgAcg{
+    padding: 10%;
+} 
+
+.fila_1{    
+    background: #ededed;  
+    height: 150px;
+    float: top;
+}
+
+.fila_2{
+    background: #81994d;
+    height: 10px;
+    float: top;
+}
+
+.fila_3{
+    background: #543d2c;
+    height: 20px;
+    float: top;
+}
+/*-----------------estilos para el registro--------------------------------------------------------------------*/
+.fila_4{
+    background: linear-gradient(to bottom, lightgray 0%, #81994d 100%);
+    height: auto;
+    float: top;
+    text-align: center;
+    padding: 10px;
+}
+
+.cajaRegistro{
+    background: #543d2c;
+    width: 600px;
+    height: 470px;
+    margin: auto;  
+    border-radius: 3px;
+}
+
+.botonesRegistro{
+    padding: 10px;
+}
+.ent{
+    padding: 15px;
+    color: #ededed;
+}
+
+.entradaFila_5{
+  height: 80px;
+}
+
+.input{
+    background: none;
+    font-family: Times New Roman;
+    font-size: 20px;
+    border-radius: 3px;
+    color: #ededed;
+    border: 1.5px solid #ededed;
+    text-transform: capitalize;
+}
+
+.btn {
+    font-family: Times New Roman;
+    font-size: 20px;
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 60px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.azulO {
+    background-color: #2698db;
+    border-radius: 3px;
+} /* Green */
+
+.azulC {
+    background-color: #45c7eb;
+    border-radius: 3px;
+} /* Green */
+
+.azulC:hover {background-color: #68923d;}
+.azulO:hover {background-color: #68923d ;}
+
+.regisBtn{
+    font-family: Times New Roman;
+    font-size: 20px;
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 30px; /* Add some padding */
+    cursor: pointer;
+    background-color: #2698db;
+    border-radius: 3px;
+}
+.regisBtn:hover {background-color: #68923d ;}
+/*-----------------estilo para el Login--------------------------------------------------------------------*/
+
+.fila_4L{
+    background: linear-gradient(to bottom, lightgray 0%, #81994d 100%);
+    height: 355px;/**/
+    float: top;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cajaLoginL{
+    background: #543d2c;
+    width: 550px;
+    height: 325px;
+    margin: auto; 
+    border-radius: 0.2em;
+}
+
+.btnL {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    /*padding: 14px 60px;  Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.azulOL {background-color: #2698db;} /* Green */
+.azulCL {background-color: #45c7eb;} /* Green */
+
+
+.form-group1L{
+  padding: 5px;    
+}
+
+.botonesIngresarL{
+    margin: 20px;
+}
+
+.inputL{
+  background: none;
+  font-size: 15px;
+  width: 385px; 
+  height: 35px;
+  border-radius: 0.4em;
+  border: 1px #ededed solid;
+}
+
+.botonesLoginL {
+    padding: 10px;
+}
+
+/*-----------------estilo para la reservacion--------------------------------------------------------------------*/
+
+.cont1{
+    padding: 20px;
+    border: solid 1px;
+}
+
+.cont2{
+    background: lightgray;
+    border: solid 1px;
+}
+
+.pestañasR{
+    background: greenyellow;
+    height: 25px;
+}
+
+.infoReser{
+    color: white;
+    background: green;
+    height: 25px;
+    width: 200px;
+}
+
+.confirReser{
+    color: gray;
+    background: green;
+    height: 25px;
+    width: 200px;
+}
+
+.infoReser2{
+    color: gray;
+    background: green;
+    height: 25px;
+    width: 200px;
+}
+
+.confirReser2{
+    color: white;
+    background: green;
+    height: 25px;
+    width: 200px;
+}
+
+.cont3{
+    padding: 20px;
+    border-top: solid 1px;
+}
+
+.cont4{
+    border: solid 1px;
+    padding: 10px;      
+}
+
+.reservDiv1{
+    background:lightgray ;
+    height: 5px;
+    padding: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+td{
+    height: 30px;
+    text-align: center;
+}
+th {
+    text-align: center;
+    
+}
+table {
+    border-spacing: 5px;
+}
+.tabla1 {
+    width: 100%; 
+    background: lightgray;
+}
+.divTabla1{
+    background:lightgray;
+    height: calc;
+    padding: 20px;
+}
+.encabezadoTabla{
+    background: #66afe9;
+    
+}
+tr{
+    text-align: center;
+}
+.pestana2content{
+    height: 170px;
+    padding: 20px;
+}
+.pestana2div{
+    height: 30px;
+}
+.botonesCont2{
+    padding: 10px;
+}
+.btncont2{
+     border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 60px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: #2698db;
+}
+
+.divTabla1cont2{
+    
+}
+
+.botonesReser{
+    margin-left: 450px;
+}
+
+/*-----------------estilo para el pie--------------------------------------------------------------------*/
+.pie{
+    background: #543d2c;
+    padding: 0.1px;
+    height: 110px;
+}
+
+.col_1f, .col_2f, .col_3f{
+    float: left;
+    padding-left: 30px;
+}

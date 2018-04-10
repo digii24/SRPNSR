@@ -18,6 +18,7 @@ class LoginController{
     public function Validacion(){
         $va = new Usuario();
         $this->model->Validar($va);
+        $prueba2;
     }
     
 }
